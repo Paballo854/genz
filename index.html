@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Portfolio</title>
+    <style>
+        .minz{
+            width: 100%;
+            background-image: url(background.jpg);
+           /* background: wheat;*/
+            background-size: cover;
+            height: 100vh;
+            position: relative;
+            font-family: sans-serif;
+        }
+        .infomac{
+            color:coral;
+        }
+        h2{
+            margin-left: 3%;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            position: relative;
+        }
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        nav {
+            position: absolute;
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 5px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            border: 2px solid navajowhite;
+        }
+        nav a:hover {
+            background-color: white;
+            color: coral;
+            margin: coral;
+            border-radius: 50px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        footer p {
+            margin: 0;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+        footer a:hover {
+            color: #ddd;
+        }
+        h1{
+            font-size: 2.2rem;
+            margin-left: 30px;  
+            color: coral;
+            font-weight: bold;
+            margin-left: 2%;
+        }
+        span {
+            color: red;
+        }
+        .hire-button {
+            background-color: #28a745;
+            color: white; 
+            border: none; 
+            border-radius: 30px; 
+            padding: 10px 15px; 
+            font-size: 16px; 
+            cursor: pointer; 
+            transition: background-color 0.3s, transform 0.3s;
+            margin-left: 10%;
+        }
+
+    .hire-button:hover {
+        background-color: #218838; /* Darker green on hover */
+        transform: scale(1.05); /* Slightly enlarge on hover */
+        }
+        .infomac{
+            font-size: 30px;
+            letter-spacing: 1px;
+            line-height: 35px;
+            max-width: 800px;
+            margin-top: 2%;
+            margin-bottom: 1%;
+            margin-left: 10%;
+        }
+    </style>
+</head>
+<body>
+    <div class="minz">
+     <header>
+        <h1><span>G</span>en<span>Z</span> <span>P</span>hotography</h1>
+        <nav>
+            <a href="#index.html">HOME</a>
+            <a href="service.html">SERVICE</a>    
+            <a href="about.html">ABOUT US</a>
+            <a href="contact.html">CONTACT</a>
+        </nav>
+    </header>
+    <div class="info">
+        <h2>We<span>lc</span>om<span>e T</span>o</h2>
+        <h2><span>G</span>en<span>Z</span> <span>P</span>hotography</h2>
+        <p class="infomac">
+            Capture the beauty of life through our lens. Whether it’s a fleeting moment, a stunning landscape, or a cherished portrait, we specialize in turning your memories into timeless art. Explore our portfolio, discover our services, and let us help you tell your story through captivating images. Join us on this visual journey, and let’s create something extraordinary together!
+        </p>
+        <button class="hire-button">Hire Me</button>
+    </div> 
+    </div>
+
+    <footer>
+        <p>&copy; 2024 GenZ Photography</p>
+        <p>
+            <a href="poll.html">Privacy Policy</a> | 
+            <a href="terms.html">Terms of Service</a> | 
+            <a href="contact.html">Contact</a>
+        </p>
+    </footer>
+</body>
+</html>
